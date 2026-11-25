@@ -1,0 +1,32 @@
+{
+  "xray_pneumonia": {
+    "blur_min": 6.657933625714176,
+    "contrast_min": 24.1281341842901,
+    "artifact_max": 0.09342215401785714
+  },
+  "ct_organ": {
+    "blur_min": 4.320125159438776,
+    "contrast_min": 36.30081903370466,
+    "artifact_max": 0.18776705994897974
+  },
+  "us_breast": {
+    "blur_min": 43.12377068790879,
+    "contrast_min": 32.88015053236858,
+    "artifact_max": 0.1631118463010204
+  },
+  "derm_lesion": {
+    "blur_min": 4.449071196921912,
+    "contrast_min": 11.41077885162101,
+    "artifact_max": 0.04424027423469389
+  },
+  "fundus_dr": {
+    "blur_min": 10.05379862882653,
+    "contrast_min": 34.89441495407021,
+    "artifact_max": 0.02735172193877551
+  },
+  "histo_colon": {
+    "blur_min": 10.315585403072989,
+    "contrast_min": 7.585398747014233,
+    "artifact_max": 0.3085977359693878
+  }
+}

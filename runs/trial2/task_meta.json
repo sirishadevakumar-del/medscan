@@ -1,0 +1,92 @@
+{
+  "xray_pneumonia": {
+    "n": 2,
+    "multilabel": false,
+    "classes": [
+      "normal",
+      "pneumonia"
+    ],
+    "modality": "xray"
+  },
+  "ct_organ": {
+    "n": 11,
+    "multilabel": false,
+    "classes": [
+      "bladder",
+      "femur-left",
+      "femur-right",
+      "heart",
+      "kidney-left",
+      "kidney-right",
+      "liver",
+      "lung-left",
+      "lung-right",
+      "pancreas",
+      "spleen"
+    ],
+    "modality": "ct"
+  },
+  "us_breast": {
+    "n": 2,
+    "multilabel": false,
+    "classes": [
+      "malignant",
+      "normal, benign"
+    ],
+    "modality": "ultrasound"
+  },
+  "derm_lesion": {
+    "n": 7,
+    "multilabel": false,
+    "classes": [
+      "actinic keratoses and intraepithelial carcinoma",
+      "basal cell carcinoma",
+      "benign keratosis-like lesions",
+      "dermatofibroma",
+      "melanoma",
+      "melanocytic nevi",
+      "vascular lesions"
+    ],
+    "modality": "dermoscopy"
+  },
+  "fundus_dr": {
+    "n": 5,
+    "multilabel": false,
+    "classes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "modality": "fundus"
+  },
+  "histo_colon": {
+    "n": 9,
+    "multilabel": false,
+    "classes": [
+      "adipose",
+      "background",
+      "debris",
+      "lymphocytes",
+      "mucus",
+      "smooth muscle",
+      "normal colon mucosa",
+      "cancer-associated stroma",
+      "colorectal adenocarcinoma epithelium"
+    ],
+    "modality": "histopathology"
+  },
+  "_modality": {
+    "n": 6,
+    "multilabel": false,
+    "classes": [
+      "ct",
+      "dermoscopy",
+      "fundus",
+      "histopathology",
+      "ultrasound",
+      "xray"
+    ]
+  }
+}
