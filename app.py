@@ -8,7 +8,7 @@ import streamlit as st
 from medscan.pipeline import Analyzer
 
 p = argparse.ArgumentParser()
-p.add_argument("--ckpt", default="runs/default/best.pt")
+p.add_argument("--ckpt", default="runs/trial2/best.pt")
 args, _ = p.parse_known_args(sys.argv[1:])
 
 st.set_page_config(page_title="MedScan decision support", layout="wide")
